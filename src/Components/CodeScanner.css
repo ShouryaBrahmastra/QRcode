@@ -1,0 +1,38 @@
+.scanner-window {
+  display: block;
+  margin: 0 auto;
+  width: 70%;
+  padding: 1rem;
+  max-width: 250px;
+  overflow: hidden;
+  border-radius: 8px;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.5) 4px, transparent 4px)
+      0 0,
+    linear-gradient(to right, rgba(0, 0, 0, 0.5) 4px, transparent 4px) 0 100%,
+    linear-gradient(to left, rgba(0, 0, 0, 0.5) 4px, transparent 4px) 100% 0,
+    linear-gradient(to left, rgba(0, 0, 0, 0.5) 4px, transparent 4px) 100% 100%,
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 4px, transparent 4px) 0 0,
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 4px, transparent 4px) 100% 0,
+    linear-gradient(to top, rgba(0, 0, 0, 0.5) 4px, transparent 4px) 0 100%,
+    linear-gradient(to top, rgba(0, 0, 0, 0.5) 4px, transparent 4px) 100% 100%;
+  background-repeat: no-repeat;
+  background-size: 50px 50px;
+}
+
+.results {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  max-width: 500px;
+  width: 100%;
+  padding: 0.4rem;
+  word-break: break-all;
+}
+
+a {
+  text-decoration: none;
+  color: #555;
+}
